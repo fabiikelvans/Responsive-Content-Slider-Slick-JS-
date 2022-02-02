@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Responsive Content Slider </title>
+    
+    <meta name="description" content="Responsive Content Slider using Slick JS">
+    <meta name="author" content="SitePoint">
+
+    <meta property="og:title" content="Responsive Content Slider">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.com/fabiikelvans">
+    <meta property="og:description" content="Responsive Content Slider using Slick JS.">
+    <meta property="og:image" content="preview.png">
+
+    <!----------- FAVICON ------------>
+    <link rel="icon" href="assets/images/favicon/favicon.ico">
+    <link rel="apple-touch-icon" href="assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicon/site.webmanifest">
+
+
+      <!----------- SLICK ------------>
+      <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+
+    <!----------- IONICONS ------------>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+
+    <!----------- MAIN CSS ------------>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+
+   <div class="text-slider-wrapper">
+       <div class="text-slider">
+           <div class="text-slide">
+               <h1>A blessing for <br>every skin.</h1>
+           </div>
+           <div class="text-slide">
+                <h1>The perfect mix of <br>old and new.</h1>
+           </div>
+           <div class="text-slide">
+            <h1>A journey over borders <br>& generations.</h1>
+           </div>
+           <div class="text-slide">
+            <h1>You are the <br>stylist.</h1>
+           </div>
+           <div class="text-slide">
+            <h1>To be on the <br>forefront.</h1>
+           </div>
+       </div>
+   </div>
+
+
+   <div class="slider-control">
+       <div class="prev">
+           <button type="button">
+            <ion-icon name="chevron-back-outline"></ion-icon>
+           </button>
+       </div>
+
+       <div class="next">
+        <button type="button">
+            <ion-icon name="chevron-forward-outline"></ion-icon>
+        </button>
+    </div>
+   </div>
+
+
+   <div class="blocks">
+       <div class="block-1"></div>
+       <div class="block-2"></div>
+       <div class="block-3"></div>
+   </div>
+
+   <div class="overlay"></div>
+
+   <div class="image-slider">
+       <div class="image-slide" id="one" style="background: url(/assets/images/image-1.jpg) no-repeat 50% 50%; background-size: cover;"></div>
+       <div class="image-slide" id="two" style="background: url(/assets/images/image-2.jpg) no-repeat 50% 50%; background-size: cover;"></div>
+       <div class="image-slide" id="three" style="background: url(/assets/images/image-3.jpg) no-repeat 50% 50%; background-size: cover;"></div>
+       <div class="image-slide" id="four" style="background: url(/assets/images/image-4.jpg) no-repeat 50% 50%; background-size: cover;"></div>
+       <div class="image-slide" id="five" style="background: url(/assets/images/image-5.jpg) no-repeat 50% 50%; background-size: cover;"></div>
+   </div>
+
+
+    <!----------- JQUERY ------------>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!----------- SLICK JS ------------>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+     <!----------- MAIN JS ------------>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
